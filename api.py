@@ -66,6 +66,7 @@ def upload_document():
     file.save(file_path)
 
     try:
+        
         # Detect file type
         file_type = detect_file_type(file_path)
 
